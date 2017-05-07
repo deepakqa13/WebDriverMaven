@@ -24,7 +24,9 @@ public class LoginTest {
 		driver.findElement(By.id("Email")).sendKeys("abc@gmail.com");
 		driver.findElement(By.id("Password")).sendKeys("abc@gmail.com");
 		driver.findElement(By.id("signin")).click();
-		driver.findElement(By.id("signin")).click();
+		driver.findElement(By.id("Logout")).click();
+		driver.findElement(By.id("LogInagain")).click();
+		
 	}
 	@AfterMethod
 	public void tearDown(){
